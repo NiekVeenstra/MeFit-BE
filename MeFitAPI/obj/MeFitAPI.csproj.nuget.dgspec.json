@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gebruiker\\Source\\Repos\\MeFit-BE\\MeFitAPI\\MeFitAPI.csproj": {}
+    "C:\\Users\\Gebruiker\\source\\repos\\MeFit-BE\\MeFitAPI\\MeFitAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gebruiker\\Source\\Repos\\MeFit-BE\\MeFitAPI\\MeFitAPI.csproj": {
+    "C:\\Users\\Gebruiker\\source\\repos\\MeFit-BE\\MeFitAPI\\MeFitAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gebruiker\\Source\\Repos\\MeFit-BE\\MeFitAPI\\MeFitAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Gebruiker\\source\\repos\\MeFit-BE\\MeFitAPI\\MeFitAPI.csproj",
         "projectName": "MeFitAPI",
-        "projectPath": "C:\\Users\\Gebruiker\\Source\\Repos\\MeFit-BE\\MeFitAPI\\MeFitAPI.csproj",
+        "projectPath": "C:\\Users\\Gebruiker\\source\\repos\\MeFit-BE\\MeFitAPI\\MeFitAPI.csproj",
         "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gebruiker\\Source\\Repos\\MeFit-BE\\MeFitAPI\\obj\\",
+        "outputPath": "C:\\Users\\Gebruiker\\source\\repos\\MeFit-BE\\MeFitAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,8 +49,18 @@
               "version": "[8.0.0-preview.1.23111.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0-preview.1.23111.4, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.0-preview.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0-preview.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2dncbXIP1n4SUpeZBcqM92Ooy/czCSQq98GueP2SqxpcXI6OyxTp+VoH8Qf4UNSLlKLofBUPN9orsQYSxSANmg==",
+  "dgSpecHash": "ofboKS8qu3yrKTmvoVix+inuGSs4dVMbyyDGPR+T/Q6PASvf338YLziGb+N87hRwkiJvOxZIEufmPIRyTAp67Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gebruiker\\Source\\Repos\\MeFit-BE\\MeFitAPI\\MeFitAPI.csproj",
+  "projectFilePath": "C:\\Users\\Gebruiker\\source\\repos\\MeFit-BE\\MeFitAPI\\MeFitAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gebruiker\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -43,6 +43,8 @@
     "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Gebruiker\\.nuget\\packages\\npgsql\\8.0.0-preview.1\\npgsql.8.0.0-preview.1.nupkg.sha512",
+    "C:\\Users\\Gebruiker\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.0-preview.1\\npgsql.entityframeworkcore.postgresql.8.0.0-preview.1.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

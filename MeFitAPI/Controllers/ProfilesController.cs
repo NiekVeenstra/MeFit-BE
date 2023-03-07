@@ -18,19 +18,11 @@ namespace MeFitAPI.Controllers
             _context = context;
         }
 
-        // GET: api/<ProfilesController>
         [HttpGet]
-        public async Task<IActionResult> GetProfile(int profile_id)
+        public IActionResult Get()
         {
-            // Retrieve profile with the specified ID from the database, or return 404 if not found.
-            Profile profile = await _context.Profiles.Include(p => p.Address).FirstOrDefaultAsync(p => p.Id == profile_id);
-            if (profile == null)
-            {
-                return NotFound();
-            }
-
-            // Return the profile as JSON.
-            return Ok(profile);
+            var profiles = _context.Profiles.ToList();
+            return Ok(profiles);
         }
 
         // GET api/<ProfilesController>/5
