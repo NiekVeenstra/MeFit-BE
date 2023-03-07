@@ -23,7 +23,7 @@ namespace MeFitAPI.Controllers
         public async Task<IActionResult> GetProfile(int profile_id)
         {
             // Retrieve profile with the specified ID from the database, or return 404 if not found.
-            Profile profile = await _context.Profiles.FindAsync(profile_id);
+            Profile profile = await _context.Profiles.Include(p => p.Address).FirstOrDefaultAsync(p => p.Id == profile_id);
             if (profile == null)
             {
                 return NotFound();

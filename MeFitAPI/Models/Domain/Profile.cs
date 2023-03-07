@@ -10,6 +10,7 @@
         public int UserId { get; set; }
         public int GoalId { get; set; }
         public int AddressId { get; set; }
+        public Address Address { get; set; } // Navigation property
         public int ProgramId { get; set; }
         public int WorkoutId { get; set; }
     }
