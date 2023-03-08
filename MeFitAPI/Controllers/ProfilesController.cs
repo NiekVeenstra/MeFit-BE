@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using MeFitAPI.DataAccess;
+using MeFitAPI.Models.Domain;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,11 +11,18 @@ namespace MeFitAPI.Controllers
     [ApiController]
     public class ProfilesController : ControllerBase
     {
-        // GET: api/<ProfilesController>
-        [HttpGet]
-        public IEnumerable<string> Get()
+        private readonly MeFitDbContext _context;
+
+        public ProfilesController(MeFitDbContext context)
         {
-            return new string[] { "value1", "value2" };
+            _context = context;
+        }
+
+        [HttpGet]
+        public IActionResult Get()
+        {
+            var profiles = _context.Profiles.ToList();
+            return Ok(profiles);
         }
 
         // GET api/<ProfilesController>/5
